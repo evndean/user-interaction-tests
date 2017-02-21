@@ -1,0 +1,60 @@
+:root {
+  --main-color: #68708A;
+  --color-2: #BBBEC8;
+  --color-3: #333D5A;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1, h2 {
+  -webkit-margin-before: 0.2em;
+  -webkit-margin-after: 0.2em;
+}
+
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#log-list {
+  width: 200px;
+  overflow: scroll;
+}
+
+#test-container {
+  background-color: var(--color-2);
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.full-height {
+  height: 100%;
+  max-height: 100%;
+}
+
+.gray-box {
+  background-color: var(--main-color);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}

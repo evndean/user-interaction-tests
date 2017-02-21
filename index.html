@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>User Interaction Tests</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="flex-container flex-column full-height">
+      <h1>User Interaction Tests</h1>
+      <div class="flex-container flex-grow">
+        <div id="sidebar" class="flex-container flex-column">
+          <div id="options-container" class="gray-box">
+            <h2>Options</h2>
+            <div id="options-checkboxes"></div>
+          </div>
+          <div id="log-container" class="flex-container flex-column flex-grow gray-box">
+            <h2>Output</h2>
+            <button id="clear-log-list">Clear</button>
+            <ul id="log-list" class="flex-grow"></ul>
+          </div>
+        </div>
+
+        <div id="test-container" class="gray-box flex-grow">
+          <p>(drag a mouse/finger/stylus/whatever in this area)</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
